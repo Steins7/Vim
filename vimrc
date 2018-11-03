@@ -1,6 +1,6 @@
-set backspace=indent,eol,start
-
-" parametres
+" pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
 
 " detection du type de fichier
 filetype on
@@ -14,6 +14,7 @@ syntax on
 set cursorline
 
 "divers
+set backspace=indent,eol,start
 set tabstop=4
 set shiftwidth=4
 set shiftround

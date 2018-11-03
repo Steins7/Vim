@@ -42,3 +42,7 @@ nmap <silent> <A-Right> :wincmd l<CR>
 
 "escape sequence
 :set timeout timeoutlen=100
+
+"vim-latex-preview
+autocmd Filetype tex setl updatetime=1000
+let g:livepreview_previewer = 'evince'	

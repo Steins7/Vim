@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/var/log'
+let g:netrw_dirhist_2='/var/log/journal/bd908959bce6457c81006d84ed7c138c'
+let g:netrw_dirhist_3='/etc/X11/xorg.conf.d'
+let g:netrw_dirhist_4='/home/main'
+let g:netrw_dirhist_5='/usr/share/X11/xorg.conf.d'
+let g:netrw_dirhist_6='/home/main/AUR/adms/.git'
+let g:netrw_dirhist_7='/home/main/AUR/scilab/pkg'

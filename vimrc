@@ -1,8 +1,15 @@
-" pathogen
+"easytags
+let g:easytags_include_members = 1
+let g:easytags_autorecurse = 1
+let g:easytags_suppress_ctags_warning = 1 "fixes the ctags version error
+let g:easytags_events = ['BufWritePost']
+let g:easytags_python_enabled = 1
+
+"pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
-" detection du type de fichier
+"detection du type de fichier
 filetype on
 
 "numeros de lignes

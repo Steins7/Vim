@@ -1,0 +1,20 @@
+LibraryName:ftgl
+TypesFiles:freetype-gl.taghl
+TypesSuffixes:c
+CheckMode:MatchStart
+	^\s*#\s*include\s*<ftgl\/edtaa3func\.h>
+	^\s*#\s*include\s*<ftgl\/font-manager\.h>
+	^\s*#\s*include\s*<ftgl\/freetype-gl\.h>
+	^\s*#\s*include\s*<ftgl\/markup\.h>
+	^\s*#\s*include\s*<ftgl\/mat4\.h>
+	^\s*#\s*include\s*<ftgl\/opengl\.h>
+	^\s*#\s*include\s*<ftgl\/platform\.h>
+	^\s*#\s*include\s*<ftgl\/shader\.h>
+	^\s*#\s*include\s*<ftgl\/text-buffer\.h>
+	^\s*#\s*include\s*<ftgl\/texture-atlas\.h>
+	^\s*#\s*include\s*<ftgl\/texture-font\.h>
+	^\s*#\s*include\s*<ftgl\/vec234\.h>
+	^\s*#\s*include\s*<ftgl\/vector\.h>
+	^\s*#\s*include\s*<ftgl\/vertex-attribute\.h>
+	^\s*#\s*include\s*<ftgl\/vertex-buffer\.h>
+MatchLines:50

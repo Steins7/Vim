@@ -1,0 +1,31 @@
+LibraryName:GLM
+TypesFiles:glm.taghl
+TypesSuffixes:c
+CheckMode:MatchStart
+MatchREs:
+	^\s*#\s*include\s*<glm\/common\.hpp>
+	^\s*#\s*include\s*<glm\/exponential\.hpp>
+	^\s*#\s*include\s*<glm\/ext\.hpp>
+	^\s*#\s*include\s*<glm\/fwd\.hpp>
+	^\s*#\s*include\s*<glm\/geometric\.hpp>
+	^\s*#\s*include\s*<glm\/glm\.hpp>
+	^\s*#\s*include\s*<glm\/integer\.hpp>
+	^\s*#\s*include\s*<glm\/mat2x2\.hpp>
+	^\s*#\s*include\s*<glm\/mat2x3\.hpp>
+	^\s*#\s*include\s*<glm\/mat2x4\.hpp>
+	^\s*#\s*include\s*<glm\/mat3x2\.hpp>
+	^\s*#\s*include\s*<glm\/mat3x3\.hpp>
+	^\s*#\s*include\s*<glm\/mat3x4\.hpp>
+	^\s*#\s*include\s*<glm\/mat4x2\.hpp>
+	^\s*#\s*include\s*<glm\/mat4x3\.hpp>
+	^\s*#\s*include\s*<glm\/mat4x4\.hpp>
+	^\s*#\s*include\s*<glm\/matrix\.hpp>
+	^\s*#\s*include\s*<glm\/packing\.hpp>
+	^\s*#\s*include\s*<glm\/trigonometric\.hpp>
+	^\s*#\s*include\s*<glm\/vec2\.hpp>
+	^\s*#\s*include\s*<glm\/vec3\.hpp>
+	^\s*#\s*include\s*<glm\/vec4\.hpp>
+	^\s*#\s*include\s*<glm\/vector_relational\.hpp>
+	^\s*#\s*include\s*<glm\/gtc\/matrix_transform\.hpp>
+	^\s*#\s*include\s*<glm\/gtc\/type_ptr\.hpp>
+MatchLines:50

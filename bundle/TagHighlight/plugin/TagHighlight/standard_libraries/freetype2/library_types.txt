@@ -1,0 +1,51 @@
+LibraryName:FreeType 2
+TypesFiles:freetype2.taghl
+TypesSuffixes:c
+CheckMode:MatchStart
+MatchREs:
+	^\s*#\s*include\s*<freetype\.h>
+	^\s*#\s*include\s*<ft2build\.h>
+	^\s*#\s*include\s*<ftadvanc\.h>
+	^\s*#\s*include\s*<ftautoh\.h>
+	^\s*#\s*include\s*<ftbbox\.h>
+	^\s*#\s*include\s*<ftbdf\.h>
+	^\s*#\s*include\s*<ftbitmap\.h>
+	^\s*#\s*include\s*<ftbzip2\.h>
+	^\s*#\s*include\s*<ftcache\.h>
+	^\s*#\s*include\s*<ftcffdrv\.h>
+	^\s*#\s*include\s*<ftchapters\.h>
+	^\s*#\s*include\s*<ftcid\.h>
+	^\s*#\s*include\s*<fterrdef\.h>
+	^\s*#\s*include\s*<fterrors\.h>
+	^\s*#\s*include\s*<ftgasp\.h>
+	^\s*#\s*include\s*<ftglyph\.h>
+	^\s*#\s*include\s*<ftgxval\.h>
+	^\s*#\s*include\s*<ftgzip\.h>
+	^\s*#\s*include\s*<ftimage\.h>
+	^\s*#\s*include\s*<ftincrem\.h>
+	^\s*#\s*include\s*<ftlcdfil\.h>
+	^\s*#\s*include\s*<ftlist\.h>
+	^\s*#\s*include\s*<ftlzw\.h>
+	^\s*#\s*include\s*<ftmac\.h>
+	^\s*#\s*include\s*<ftmm\.h>
+	^\s*#\s*include\s*<ftmodapi\.h>
+	^\s*#\s*include\s*<ftmoderr\.h>
+	^\s*#\s*include\s*<ftotval\.h>
+	^\s*#\s*include\s*<ftoutln\.h>
+	^\s*#\s*include\s*<ftpfr\.h>
+	^\s*#\s*include\s*<ftrender\.h>
+	^\s*#\s*include\s*<ftsizes\.h>
+	^\s*#\s*include\s*<ftsnames\.h>
+	^\s*#\s*include\s*<ftstroke\.h>
+	^\s*#\s*include\s*<ftsynth\.h>
+	^\s*#\s*include\s*<ftsystem\.h>
+	^\s*#\s*include\s*<fttrigon\.h>
+	^\s*#\s*include\s*<ftttdrv\.h>
+	^\s*#\s*include\s*<fttypes\.h>
+	^\s*#\s*include\s*<ftwinfnt\.h>
+	^\s*#\s*include\s*<ftxf86\.h>
+	^\s*#\s*include\s*<t1tables\.h>
+	^\s*#\s*include\s*<ttnameid\.h>
+	^\s*#\s*include\s*<tttables\.h>
+	^\s*#\s*include\s*<tttags\.h>
+	^\s*#\s*include\s*<ttunpat\.h>

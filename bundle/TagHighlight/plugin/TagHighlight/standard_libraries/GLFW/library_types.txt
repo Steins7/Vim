@@ -1,0 +1,7 @@
+LibraryName:GLFW
+TypesFiles:GLFW.taghl
+TypesSuffixes:c
+CheckMode:MatchStart
+	^\s*#\s*include\s*<GLFW\/glfw3\.h>
+	^\s*#\s*include\s*<GLFW\/glfw3native\.h>
+MatchLines:50

@@ -1,0 +1,24 @@
+LibraryName:GL
+TypesFiles:GL.taghl
+TypesSuffixes:c
+CheckMode:MatchStart
+	^\s*#\s*include\s*<GL\/freeglut_ext\.h>
+	^\s*#\s*include\s*<GL\/freeglut\.h>
+	^\s*#\s*include\s*<GL\/freeglut_std\.h>
+	^\s*#\s*include\s*<GL\/glcorearb\.h>
+	^\s*#\s*include\s*<GL\/glew\.h>
+	^\s*#\s*include\s*<GL\/glext\.h>
+	^\s*#\s*include\s*<GL\/gl\.h>
+	^\s*#\s*include\s*<GL\/gl_mangle\.h>
+	^\s*#\s*include\s*<GL\/glu\.h>
+	^\s*#\s*include\s*<GL\/glu_mangle\.h>
+	^\s*#\s*include\s*<GL\/glut\.h>
+	^\s*#\s*include\s*<GL\/glxew\.h>
+	^\s*#\s*include\s*<GL\/glxext\.h>
+	^\s*#\s*include\s*<GL\/glx\.h>
+	^\s*#\s*include\s*<GL\/glx_mangle\.h>
+	^\s*#\s*include\s*<GL\/osmesa\.h>
+	^\s*#\s*include\s*<GL\/wglew\.h>
+	^\s*#\s*include\s*<GL\/wglext\.h>
+	^\s*#\s*include\s*<GL\/wmesa\.h>
+MatchLines:50

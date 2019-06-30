@@ -9,10 +9,11 @@ filetype on
 set number
 
 "coloration 
-set background=dark
 syntax on
 set cursorline
-highlight ColorColumn ctermbg=DarkYellow
+"highlight ColorColumn ctermbg=DarkYellow
+let g:spacegray_use_italics=1
+colorscheme spacegray
 
 "miscellaneous
 set backspace=indent,eol,start

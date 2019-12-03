@@ -49,5 +49,5 @@ there you can put the files of the plugin you want. The most clean way to do tha
 
 if you used submodules to install your plugins, that's reallly simple :
 
-    git pull --recuser-submodules
+    git pull --recurse-submodules
 

@@ -41,6 +41,8 @@ nmap <silent> <S-A-Up> :wincmd k<CR>
 nmap <silent> <S-A-Down> :wincmd j<CR>
 nmap <silent> <S-A-Left> :wincmd h<CR>
 nmap <silent> <S-A-Right> :wincmd l<CR>
+nmap <silent> <C-l> :noh<CR>
+nmap <silent> <F6> gg=G<C-o><C-o><CR>
 
 "escape sequence
 :set timeout timeoutlen=100

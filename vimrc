@@ -56,4 +56,5 @@ set autochdir
 "vim-latex-preview
 autocmd Filetype tex setl updatetime=1000
 let g:livepreview_previewer = 'evince'	
+let g:livepreview_engine = 'xelatex'
 

@@ -16,3 +16,6 @@
 [submodule "bundle/rust.vim"]
 	path = bundle/rust.vim
 	url = https://github.com/rust-lang/rust.vim
+[submodule "bundle/vim-header"]
+	path = bundle/vim-header
+	url = https://github.com/alpertuna/vim-header
